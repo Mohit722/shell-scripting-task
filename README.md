@@ -2,15 +2,15 @@
 
 This repository have 2 shell scripts for disk usage monitoring and log rotation.
 
-# 1 Disk Usage Monitoring (`disk_monitor.sh`)
+1 Disk Usage Monitoring (`disk_monitor.sh`)
 
-# Features:
+Features:
 - Checks disk usage for all partitions.
 - Sends an email or Slack alert if usage exceeds a configurable threshold.
 - Logs script activity to `/var/log/disk_alert.log`.
 
 
-# How to Run:
+How to Run:
 $ chmod +x disk_monitor.sh
 $ ./disk_monitor.sh
 
@@ -35,7 +35,7 @@ Features:
 - Archives logs older than 3 days and uploads to AWS S3.
 - Logs operations to `/var/log/log_rotation.log`.
 
-# How to Run:
+ How to Run:
 
 $ chmod +x log_rotation.sh
 $ ./log_rotation.sh
