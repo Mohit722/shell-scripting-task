@@ -17,6 +17,7 @@ $ ./disk_monitor.sh
 
 
 To set a custom threshold:
+
 $ DISK_THRESHOLD=80 ./disk_monitor.sh
 
 To schedule it via cron (**Runs every hour**):
