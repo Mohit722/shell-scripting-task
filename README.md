@@ -15,6 +15,7 @@ $ chmod +x disk_monitor.sh
 
 $ ./disk_monitor.sh
 
+
 To set a custom threshold:
 $ DISK_THRESHOLD=80 ./disk_monitor.sh
 
@@ -39,11 +40,13 @@ Features:
  How to Run:
 
 $ chmod +x log_rotation.sh
+
 $ ./log_rotation.sh
 
 To schedule it via cron (**Runs daily at midnight**):
 
 $ crontab -e
+
 
 Add this line:
 
