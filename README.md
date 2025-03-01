@@ -1,8 +1,7 @@
 # shell-scripting-task
-
 This repository have 2 shell scripts for disk usage monitoring and log rotation.
 
-1 Disk Usage Monitoring (`disk_monitor.sh`)
+# 1 Disk Usage Monitoring (`disk_monitor.sh`)
 
 Features:
 - Checks disk usage for all partitions.
